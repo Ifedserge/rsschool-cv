@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+h2, h3{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    padding: 15px 0;
+}
+p, li{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid rgba(197, 197, 197, 0.7);
+}
+.container__block{
+    display: flex;
+}
+.block__left{
+    width: 30%;
+    border-right: 2px solid rgb(216, 200, 200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    margin-top: 50px;
+}
+header .photo img{
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+header .photo p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+}
+main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+main li{
+    list-style: '-';
+    
+    padding-left: 24px;
+    line-height: 144%;
+}
+
+.block__right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.block__right h2{
+    text-align: center;
+}
+.education {
+    padding: 50px 0 25px;
+    width: 90%;
+   
+}
+.education p, .courses p{
+    line-height: 120%;
+}
+.courses{
+    width: 90%;
+    
+}
+.courses__block, .education__block{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.courses img, .education img{
+    height: 120px;
+}
+.about, .code{
+    width: 90%;
+    padding-top: 25px;
+}
+.about h2, .code h2{
+    padding-bottom: 15px;
+}
+.about p{
+    line-height: 168%;
+    text-align: justify;
+}
+footer{
+    /* padding-top: 50px; */
+    padding: 25px;
+    border-top: 2px solid rgb(236, 232, 232);
+    background-color: rgb(110, 108, 108);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    ;
+}
+footer a img{
+    height: 50px;
+    padding: 0 10px;
+}

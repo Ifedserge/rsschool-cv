@@ -1,0 +1,111 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container__block">
+                <div class="block__left">
+                    <header>
+                        <div class="photo">
+                            <img src="./img/avatar1.jpeg" alt="#">
+                            <h1>Siarhei Fedarau</h1>
+                            <p>FrontEnd Developer</p>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <nav>
+                                <ul>
+                                    <li>HTML, CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>Figma (from FrontEnd)</li>
+                                    <li>Git</li>
+                                    <li>React (basic)</li>
+                                </ul>
+                            </nav>
+                            
+                        </div>
+                        <div class="contacts">
+                            <h3>Contacts</h3>
+                            <ul>
+                                <li>+375 29 8518620(viber, telegram)</li>
+                                <li>isergefed@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="leng">
+                            <h3>LANGUAGES</h3>
+                            <ul>
+                                <li>English (A2)</li>
+                                <li>Russian (native)</li>
+                                <li>Belorussian</li>
+                            </ul>
+                        </div>
+                    </main>
+                    
+                </div>
+                <div class="block__right">
+                    <div class="education">
+                        <h2>Education</h2>
+                        <div class="education__block">
+                            <div>
+                                <p>Belarusian State University 2011-2016</p>
+                                <p>Geographer hydrometeorologist</p>
+                            </div>
+                            <img src="./img/bsu.jpeg" alt="#">
+                        </div>
+                        
+                    </div>
+                    <div class="courses">
+                        <h2>Сourses</h2>
+                        <div class="courses__block">
+                            <div>
+                                <p>Training Center LLC "AytiDizayn"</p>
+                                <p>«Front-end Web Development</p>
+                            </div>
+                            <img src="./img/cert.jpg" alt="#">
+                        </div>
+                    </div>
+                    <div class="about">
+                        <h2>About MySelf</h2>
+                        <p>Hello, my name is Sergey and I am a beginner front-end developer with
+                            experience in the field of procurement. My passion for programming
+                            started by learning JavaScript, and since then I've been constantly trying to
+                            expand your knowledge and skills in this area.
+                            I graduated from courses where I became more closely acquainted with HTML, CSS, JS. I can
+                            typeset according to the layout of figma and PS. JS worked with DOM, EVENTS,
+                            OOP, made API requests, created SPAs, made popups,
+                            sliders. Of course, I worked with GIT. Ready for new challenges and ready to learn new technologies and development methods. I strive
+                            constantly improve their skills and achieve high
+                            level in frontend development.</p>
+                    </div>
+                    <div class="code">
+                        <h2>My Code</h2>
+                        <pre>
+                            <code>
+                                export default async function router() {
+                                    let hash = window.location.hash.slice(1);
+                                    if(!hash) hash = 'home';
+                            
+                                    let component = await import(`../pages/${hash}.js`);
+                                    return component.default;
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="#"></a>
+                <p>2023</p>
+                <a href="https://github.com/Ifedserge">My GitHub<img src="./img/github.svg" alt="#"></a>
+            </footer>
+        </div>
+        
+    </body>
+    </html>
