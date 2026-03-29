@@ -1,0 +1,42 @@
+h1, h2, a, p, li{
+    color: #f0f0f0ff;
+}
+body{
+    background-color: #3a3836;
+}
+.wrap{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
+h2{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(164, 164, 164);
+}
+pre{
+    background: #fff;
+}
+footer img{
+    height: 50px;
+}
+footer a{
+    color: #000;
+    font-weight: 700;
+}
